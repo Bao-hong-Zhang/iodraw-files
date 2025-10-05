@@ -1,191 +1,119 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="24.7.17">
-  <diagram name="风光储氢综合微网分层拓扑图" id="k1XZtK4bBpjUeTJGoPvf">
-    <mxGraphModel dx="1958" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="小型分布式场景" id="oaawtVb4z62rbQBkEKO5">
+    <mxGraphModel dx="2491" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-63" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AAAAAA;fillColor=#E6E6FA;fillOpacity=10;" vertex="1" parent="1">
-          <mxGeometry x="20" y="20" width="760" height="260" as="geometry" />
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-1" value="" style="line;strokeWidth=1;dashed=1;strokeColor=#AAAAAA;" vertex="1" parent="1">
+          <mxGeometry x="424" y="20" width="1" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-64" value="上层汇流 (基于 3.1.3 环状基础拓扑)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="35" width="240" height="30" as="geometry" />
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-2" value="负荷密度低 (&amp;lt;30户): 放射状拓扑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="30" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-65" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AAAAAA;fillColor=#E6E6FA;fillOpacity=10;" vertex="1" parent="1">
-          <mxGeometry x="20" y="300" width="760" height="310" as="geometry" />
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-3" value="(基于 3.1.1 放射状拓扑简化)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="120" y="55" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-66" value="中层协调 (基于 3.1.3 环状基础拓扑)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="315" width="240" height="30" as="geometry" />
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-4" value="" style="line;strokeWidth=2;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="1" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-67" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AAAAAA;fillColor=#E6E6FA;fillOpacity=10;" vertex="1" parent="1">
-          <mxGeometry x="20" y="630" width="760" height="300" as="geometry" />
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-5" value="直流母线 (±380V)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-68" value="下层供电 (基于 3.1.1 放射状基础拓扑)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="645" width="240" height="30" as="geometry" />
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-6" value="DC/AC" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#a0d8f0;strokeColor=#00008b;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="185" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-69" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="100" y="110" width="600" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-70" value="上层高压环网 (±50kV)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="125" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-71" value="大规模新能源汇集, R≤0.008Ω/km, 双极设计" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="275" y="240" width="250" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-72" value="风电场 (≥50MW)&lt;br&gt;整流器接入" style="shape=triangle;perimeter=trianglePerimeter;whiteSpace=wrap;html=1;direction=south;fillColor=#90EE90;strokeColor=#006400;strokeWidth=1.5;fontSize=9;verticalAlign=top;spacingTop=4;" vertex="1" parent="1">
-          <mxGeometry x="180" y="135" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-73" value="光伏电站 (≥30MW)&lt;br&gt;Boost变换器接入" style="shape=triangle;perimeter=trianglePerimeter;whiteSpace=wrap;html=1;direction=south;fillColor=#90EE90;strokeColor=#006400;strokeWidth=1.5;fontSize=9;verticalAlign=bottom;spacingBottom=4;" vertex="1" parent="1">
-          <mxGeometry x="320" y="60" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-74" value="" style="shape=triangle;perimeter=trianglePerimeter;whiteSpace=wrap;html=1;direction=south;fillColor=#90EE90;strokeColor=#006400;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="480" y="70" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-75" value="" style="shape=triangle;perimeter=trianglePerimeter;whiteSpace=wrap;html=1;direction=south;fillColor=#90EE90;strokeColor=#006400;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="600" y="135" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-76" value="纵联差动保护&lt;br&gt;(≤3ms)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;size=0.2;fontSize=9;verticalAlign=top;strokeColor=#FFA500;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="190" width="60" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-77" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="150" y="415" width="500" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-78" value="中层中压环网 (±10kV)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="425" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-79" value="储能-制氢协调, R≤0.015Ω/km" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="325" y="530" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-80" value="蓄电池储能&lt;br&gt;(20MW/40MWh)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFCC80;strokeColor=#E68A00;strokeWidth=1.5;fontSize=9;verticalAlign=bottom;spacingBottom=4;" vertex="1" parent="1">
-          <mxGeometry x="200" y="438" width="80" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-81" value="氢储能系统 (10MW)&lt;br&gt;含电解槽+储氢罐" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFCC80;strokeColor=#E68A00;strokeWidth=1.5;fontSize=9;verticalAlign=bottom;spacingBottom=4;" vertex="1" parent="1">
-          <mxGeometry x="520" y="438" width="100" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-82" value="制氢电解槽 (恒功率)&lt;br&gt;功率可调±20%" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;fillColor=#D8BFD8;strokeColor=#800080;strokeWidth=1.5;fontSize=9;verticalAlign=bottom;spacingBottom=4;" vertex="1" parent="1">
-          <mxGeometry x="340" y="360" width="80" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-83" value="" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;fillColor=#D8BFD8;strokeColor=#800080;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="450" y="365" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-84" value="" style="line;strokeWidth=1.5;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="100" y="720" width="600" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-85" value="下层低压母线 (±380V)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="690" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-86" value="居民生活负荷" style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D3D3D3;strokeColor=#555555;strokeWidth=1.5;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="125" y="800" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-87" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1" source="-9XNGZZdAOQNBc3wkvb5-84" target="-9XNGZZdAOQNBc3wkvb5-86">
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="725" as="sourcePoint" />
-            <mxPoint x="150" y="800" as="targetPoint" />
+            <mxPoint x="70" y="200" as="sourcePoint" />
+            <mxPoint x="100" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-88" value="过流保护" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;size=0.2;fontSize=9;strokeColor=#FFA500;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="135" y="740" width="30" height="30" as="geometry" />
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-8" value="220V&lt;br&gt;交流网" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="185" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-89" value="小型工业负荷" style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D3D3D3;strokeColor=#555555;strokeWidth=1.5;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="255" y="800" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-90" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1" source="-9XNGZZdAOQNBc3wkvb5-84" target="-9XNGZZdAOQNBc3wkvb5-89">
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="HJD1jfsMsSZEiiHSb11w-8" target="HJD1jfsMsSZEiiHSb11w-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="725" as="sourcePoint" />
-            <mxPoint x="280" y="800" as="targetPoint" />
+            <mxPoint x="40" y="210" as="sourcePoint" />
+            <mxPoint x="90" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-91" value="" style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D3D3D3;strokeColor=#555555;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="385" y="800" width="50" height="50" as="geometry" />
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-10" value="户用光伏 (2-5kW)" style="shape=triangle;perimeter=trianglePerimeter;whiteSpace=wrap;html=1;direction=south;fillColor=#90ee90;strokeColor=#006400;strokeWidth=1;fontSize=9;align=left;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="170" y="112.5" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-92" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1" source="-9XNGZZdAOQNBc3wkvb5-84" target="-9XNGZZdAOQNBc3wkvb5-91">
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="725" as="sourcePoint" />
-            <mxPoint x="410" y="800" as="targetPoint" />
+            <mxPoint x="100" y="130" as="sourcePoint" />
+            <mxPoint x="170" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-93" value="" style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D3D3D3;strokeColor=#555555;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="515" y="800" width="50" height="50" as="geometry" />
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-12" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;size=0.2;strokeColor=#FFA500;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="122.5" width="15" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-94" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1" source="-9XNGZZdAOQNBc3wkvb5-84" target="-9XNGZZdAOQNBc3wkvb5-93">
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-13" value="家用储能&lt;br&gt;360V放电/400V充电" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffcc80;strokeColor=#e68a00;strokeWidth=1;fontSize=9;align=left;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="725" as="sourcePoint" />
-            <mxPoint x="540" y="800" as="targetPoint" />
+            <mxPoint x="100" y="190" as="sourcePoint" />
+            <mxPoint x="170" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-95" value="" style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D3D3D3;strokeColor=#555555;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="645" y="800" width="50" height="50" as="geometry" />
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-15" value="居民负荷 (LED照明)" style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d3d3d3;strokeColor=#555;strokeWidth=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-96" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1" source="-9XNGZZdAOQNBc3wkvb5-84" target="-9XNGZZdAOQNBc3wkvb5-95">
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="670" y="725" as="sourcePoint" />
-            <mxPoint x="670" y="800" as="targetPoint" />
+            <mxPoint x="100" y="250" as="sourcePoint" />
+            <mxPoint x="170" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-97" value="" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#A0D8F0;strokeColor=#00008B;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="262" y="325" width="36" height="36" as="geometry" />
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-17" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;size=0.2;strokeColor=#FFA500;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="242.5" width="15" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-98" value="直流变压器&lt;br&gt;(±50kV/±10kV)&lt;br&gt;N-1 冗余" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="170" y="315" width="90" height="40" as="geometry" />
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-18" value="充电桩 (下垂控制)" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;fillColor=#d8bfd8;strokeColor=#800080;strokeWidth=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-99" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=1.5;exitX=0.29;exitY=0.96;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-9XNGZZdAOQNBc3wkvb5-69" target="-9XNGZZdAOQNBc3wkvb5-97">
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="350" as="sourcePoint" />
-            <mxPoint x="450" y="400" as="targetPoint" />
+            <mxPoint x="100" y="300" as="sourcePoint" />
+            <mxPoint x="170" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-100" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-9XNGZZdAOQNBc3wkvb5-97" target="-9XNGZZdAOQNBc3wkvb5-77">
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-20" value="负荷密度高 (≥30户): 单环简化拓扑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-21" value="(基于 3.1.3 环状拓扑简化)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="524" y="55" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-22" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="484" y="100" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-23" value="单环母线&lt;br&gt;(±380V)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="594" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-24" value="DC/AC" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#a0d8f0;strokeColor=#00008b;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="754" y="185" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-25" value="220V&lt;br&gt;交流网" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="804" y="185" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="HJD1jfsMsSZEiiHSb11w-24" target="HJD1jfsMsSZEiiHSb11w-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="380" as="sourcePoint" />
-            <mxPoint x="280" y="415" as="targetPoint" />
+            <mxPoint x="754" y="210" as="sourcePoint" />
+            <mxPoint x="804" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-101" value="" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#A0D8F0;strokeColor=#00008B;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="502" y="325" width="36" height="36" as="geometry" />
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-27" value="户用光伏" style="shape=triangle;perimeter=trianglePerimeter;whiteSpace=wrap;html=1;direction=south;fillColor=#90ee90;strokeColor=#006400;strokeWidth=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="454" y="185" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-102" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=1.5;exitX=0.7;exitY=0.96;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-9XNGZZdAOQNBc3wkvb5-69" target="-9XNGZZdAOQNBc3wkvb5-101">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="270" as="sourcePoint" />
-            <mxPoint x="520" y="325" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-28" value="家用储能" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffcc80;strokeColor=#e68a00;strokeWidth=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="544" y="90" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-103" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=1.5;entryX=0.7;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-9XNGZZdAOQNBc3wkvb5-101" target="-9XNGZZdAOQNBc3wkvb5-77">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="380" as="sourcePoint" />
-            <mxPoint x="520" y="415" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-29" value="居民负荷" style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d3d3d3;strokeColor=#555;strokeWidth=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="664" y="95" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-104" value="" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#A0D8F0;strokeColor=#00008B;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="302" y="615" width="36" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-105" value="直流变压器&lt;br&gt;(±10kV/±380V)&lt;br&gt;N-1 冗余" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="210" y="605" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-106" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=1.5;exitX=0.3;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-9XNGZZdAOQNBc3wkvb5-77" target="-9XNGZZdAOQNBc3wkvb5-104">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="555" as="sourcePoint" />
-            <mxPoint x="320" y="615" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-107" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=1.5;" edge="1" parent="1" source="-9XNGZZdAOQNBc3wkvb5-104" target="-9XNGZZdAOQNBc3wkvb5-84">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="680" as="sourcePoint" />
-            <mxPoint x="320" y="720" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-108" value="" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#A0D8F0;strokeColor=#00008B;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="462" y="615" width="36" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-109" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=1.5;exitX=0.62;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-9XNGZZdAOQNBc3wkvb5-77" target="-9XNGZZdAOQNBc3wkvb5-108">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="555" as="sourcePoint" />
-            <mxPoint x="480" y="615" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-9XNGZZdAOQNBc3wkvb5-110" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=1.5;" edge="1" parent="1" source="-9XNGZZdAOQNBc3wkvb5-108" target="-9XNGZZdAOQNBc3wkvb5-84">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="680" as="sourcePoint" />
-            <mxPoint x="480" y="720" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="HJD1jfsMsSZEiiHSb11w-30" value="充电桩" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;fillColor=#d8bfd8;strokeColor=#800080;strokeWidth=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="604" y="280" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
