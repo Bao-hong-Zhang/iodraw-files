@@ -1,0 +1,142 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="24.7.17">
+  <diagram name="网状型拓扑" id="F_NNfS39DTOMwxIlCtO0">
+    <mxGraphModel dx="4160" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-1" value="启动概率潮流计算" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="345" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-1" target="MQqUGw8DOfYC84zBXzd4-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="110" as="sourcePoint" />
+            <mxPoint x="425" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-3" value="1. 输入电网确定性数据&lt;br&gt;（拓扑、参数）&lt;br&gt;2. 定义不确定性变量及其概率分布（光伏、风电）" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-3" target="MQqUGw8DOfYC84zBXzd4-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="230" as="sourcePoint" />
+            <mxPoint x="425" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-5" value="根据概率分布模型进行 N&lt;sub&gt;total&lt;/sub&gt; 次蒙特卡洛抽样，生成原始场景集" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-5" target="MQqUGw8DOfYC84zBXzd4-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="350" as="sourcePoint" />
+            <mxPoint x="425" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-7" value="采用 K-均值聚类算法，将原始场景缩减为 N&lt;sub&gt;rep&lt;/sub&gt; 个典型场景及其对应概率" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="380" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-7" target="MQqUGw8DOfYC84zBXzd4-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="470" as="sourcePoint" />
+            <mxPoint x="425" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-9" value="初始化场景计数 i = 1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="345" y="500" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-9" target="MQqUGw8DOfYC84zBXzd4-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="570" as="sourcePoint" />
+            <mxPoint x="425" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-11" value="i &amp;lt;= N&lt;sub&gt;rep&lt;/sub&gt; ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="365" y="600" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-11" target="MQqUGw8DOfYC84zBXzd4-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="660" as="sourcePoint" />
+            <mxPoint x="580" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-13" value="提取第 i 个场景的输入&lt;br&gt;（新能源出力等）" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="630" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-13" target="MQqUGw8DOfYC84zBXzd4-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="700" as="sourcePoint" />
+            <mxPoint x="660" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-15" value="&lt;b&gt;执行确定性潮流计算&lt;/b&gt;&lt;br&gt;（调用4.6节改进算法）" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="730" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-15" target="MQqUGw8DOfYC84zBXzd4-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="800" as="sourcePoint" />
+            <mxPoint x="660" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-17" value="存储该场景的计算结果&lt;br&gt;（电压、功率、损耗等）" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="830" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-17" target="MQqUGw8DOfYC84zBXzd4-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="900" as="sourcePoint" />
+            <mxPoint x="660" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-19" value="i = i + 1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="930" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-19" target="MQqUGw8DOfYC84zBXzd4-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="1000" as="sourcePoint" />
+            <mxPoint x="425" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-20" target="MQqUGw8DOfYC84zBXzd4-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="1020" as="sourcePoint" />
+            <mxPoint x="425" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-22" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="630" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-23" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="730" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-11" target="MQqUGw8DOfYC84zBXzd4-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="730" as="sourcePoint" />
+            <mxPoint x="425" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-25" value="对所有 N&lt;sub&gt;rep&lt;/sub&gt; 个场景的结果进行概率加权统计" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="780" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-25" target="MQqUGw8DOfYC84zBXzd4-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="870" as="sourcePoint" />
+            <mxPoint x="425" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-27" value="输出概率分布（PDF/CDF）及风险指标（电压越限概率等）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="320" y="900" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-27" target="MQqUGw8DOfYC84zBXzd4-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="990" as="sourcePoint" />
+            <mxPoint x="425" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-29" value="结束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1060" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
