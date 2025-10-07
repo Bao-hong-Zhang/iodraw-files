@@ -139,6 +139,136 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-114" value="启动概率潮流计算" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="950" y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-115" value="输入电网确定性数据" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="950" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-116" value="定义不确定性变量及其概率分布" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="950" y="260" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-117" value="根据概率分布模型生成原始场景集" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="950" y="370" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-118" value="采用 K-Means 均值聚类算法，将原始场景集缩减为 Nrep 个典型场景及其对应概率" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="950" y="480" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-119" value="初始化场景计数 i = 1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="950" y="610" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-120" value="i &amp;lt;= Nrep ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="960" y="710" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-121" value="提取第 i 个场景的输入&lt;br&gt;（新能源出力等）" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="950" y="830" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-122" value="执行确定性潮流计算" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="950" y="940" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-123" value="存储该场景的计算结果&lt;br&gt;（电压、功率、损耗等）" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1040" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-124" value="i = i + 1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-125" value="对所有 Nrep 个场景的结果进行概率加权统计" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="715" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-126" value="输出概率分布（PDF/CDF）及风险指标" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="830" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-127" value="结束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="950" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-128" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-114" target="MQqUGw8DOfYC84zBXzd4-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1005" y="130" as="sourcePoint" />
+            <mxPoint x="1055" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-129" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-115" target="MQqUGw8DOfYC84zBXzd4-116">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1005" y="230" as="sourcePoint" />
+            <mxPoint x="1055" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-130" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-116" target="MQqUGw8DOfYC84zBXzd4-117">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1005" y="340" as="sourcePoint" />
+            <mxPoint x="1055" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-131" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-117" target="MQqUGw8DOfYC84zBXzd4-118">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1005" y="450" as="sourcePoint" />
+            <mxPoint x="1055" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-132" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-118" target="MQqUGw8DOfYC84zBXzd4-119">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1005" y="580" as="sourcePoint" />
+            <mxPoint x="1055" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-133" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-119" target="MQqUGw8DOfYC84zBXzd4-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1005" y="680" as="sourcePoint" />
+            <mxPoint x="1055" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-134" value="Y (是)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-120" target="MQqUGw8DOfYC84zBXzd4-121">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1005" y="800" as="sourcePoint" />
+            <mxPoint x="1055" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-135" value="N (否)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-120" target="MQqUGw8DOfYC84zBXzd4-125">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1105" y="750" as="sourcePoint" />
+            <mxPoint x="1155" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-136" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-121" target="MQqUGw8DOfYC84zBXzd4-122">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1005" y="910" as="sourcePoint" />
+            <mxPoint x="1055" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-137" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-122" target="MQqUGw8DOfYC84zBXzd4-123">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1005" y="1010" as="sourcePoint" />
+            <mxPoint x="1055" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-138" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-123" target="MQqUGw8DOfYC84zBXzd4-124">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1005" y="1120" as="sourcePoint" />
+            <mxPoint x="1055" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-139" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-124" target="MQqUGw8DOfYC84zBXzd4-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="1180" as="sourcePoint" />
+            <mxPoint x="910" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="890" y="1180" />
+              <mxPoint x="890" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-140" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-125" target="MQqUGw8DOfYC84zBXzd4-126">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1235" y="800" as="sourcePoint" />
+            <mxPoint x="1285" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQqUGw8DOfYC84zBXzd4-141" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MQqUGw8DOfYC84zBXzd4-126" target="MQqUGw8DOfYC84zBXzd4-127">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1235" y="920" as="sourcePoint" />
+            <mxPoint x="1285" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
