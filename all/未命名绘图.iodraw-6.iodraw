@@ -125,7 +125,7 @@
           <mxGeometry x="510" y="880" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-5cZ2hvv2o5u94oEUxhw-26" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="770" y="700" width="30" height="30" as="geometry" />
+          <mxGeometry x="740" y="700" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-5cZ2hvv2o5u94oEUxhw-27" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-5" target="-5cZ2hvv2o5u94oEUxhw-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -171,6 +171,168 @@
         </mxCell>
         <mxCell id="-5cZ2hvv2o5u94oEUxhw-37" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="565" y="960" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-40" value="开始" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="365" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-41" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-40" target="-5cZ2hvv2o5u94oEUxhw-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="110" as="sourcePoint" />
+            <mxPoint x="425" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-42" value="输入电网拓扑、线路参数及节点数据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-43" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-42" target="-5cZ2hvv2o5u94oEUxhw-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="220" as="sourcePoint" />
+            <mxPoint x="425" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-44" value="所有DAB移相比d&lt;br&gt;是否均已确定？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-45" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-44" target="-5cZ2hvv2o5u94oEUxhw-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="300" as="sourcePoint" />
+            <mxPoint x="580" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-46" value="根据“边缘优先”原则，&lt;br&gt;选择待求解的 DAB&lt;i&gt;&lt;sub&gt;i&lt;/sub&gt;&lt;/i&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="580" y="270" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-47" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-46" target="-5cZ2hvv2o5u94oEUxhw-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="340" as="sourcePoint" />
+            <mxPoint x="670" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-48" value="将其余【未定】DAB的&lt;br&gt;移相比d暂设为0，&lt;br&gt;并采用其简化模型" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="580" y="370" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-49" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-48" target="-5cZ2hvv2o5u94oEUxhw-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="450" as="sourcePoint" />
+            <mxPoint x="670" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-50" value="为DAB&lt;i&gt;&lt;sub&gt;i&lt;/sub&gt;&lt;/i&gt;，在搜索空间&lt;br&gt;S=(-0.5, 0.5)内&lt;br&gt;取下一个移相比 &lt;i&gt;d&lt;sub&gt;k&lt;/sub&gt;&lt;/i&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="580" y="480" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-51" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-50" target="-5cZ2hvv2o5u94oEUxhw-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="570" as="sourcePoint" />
+            <mxPoint x="670" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-52" value="根据当前 &lt;i&gt;d&lt;sub&gt;k&lt;/sub&gt;&lt;/i&gt; 更新模型参数，&lt;br&gt;修正并形成 G&lt;sub&gt;bus&lt;/sub&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="580" y="600" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-53" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-52" target="-5cZ2hvv2o5u94oEUxhw-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="670" as="sourcePoint" />
+            <mxPoint x="670" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-54" value="执行牛顿-拉夫逊法，&lt;br&gt;求解潮流方程" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="580" y="700" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-55" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-54" target="-5cZ2hvv2o5u94oEUxhw-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="770" as="sourcePoint" />
+            <mxPoint x="670" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-56" value="潮流计算是否收敛？&lt;br&gt;(max|ΔP| &amp;lt; ε)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="610" y="800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-57" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-56" target="-5cZ2hvv2o5u94oEUxhw-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="840" as="sourcePoint" />
+            <mxPoint x="515" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-58" value="锁定 &lt;i&gt;d&lt;sub&gt;k&lt;/sub&gt;&lt;/i&gt; 为DAB&lt;i&gt;&lt;sub&gt;i&lt;/sub&gt;&lt;/i&gt;的解，&lt;br&gt;并将其标记为【已定】" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="335" y="810" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-59" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-58" target="-5cZ2hvv2o5u94oEUxhw-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="840" as="sourcePoint" />
+            <mxPoint x="290" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-60" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="810" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-61" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="665" y="890" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-62" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-56" target="-5cZ2hvv2o5u94oEUxhw-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="890" as="sourcePoint" />
+            <mxPoint x="670" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-63" value="是否已遍历搜索空间S？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="610" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-64" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-63" target="-5cZ2hvv2o5u94oEUxhw-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="960" as="sourcePoint" />
+            <mxPoint x="810" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-65" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="710" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-66" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-44" target="-5cZ2hvv2o5u94oEUxhw-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="360" as="sourcePoint" />
+            <mxPoint x="425" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-67" value="基于所有已确定的控制参数，&lt;br&gt;执行最终确定性潮流计算" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-68" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-67" target="-5cZ2hvv2o5u94oEUxhw-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="470" as="sourcePoint" />
+            <mxPoint x="425" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-69" value="计算并输出线路潮流、&lt;br&gt;网络损耗及平衡节点功率" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="510" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-70" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-69" target="-5cZ2hvv2o5u94oEUxhw-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="580" as="sourcePoint" />
+            <mxPoint x="425" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-71" value="结束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="365" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-72" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="350" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-73" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="270" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-74" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-63" target="-5cZ2hvv2o5u94oEUxhw-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="1010" as="sourcePoint" />
+            <mxPoint x="670" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-75" value="求解失败：&lt;br&gt;未找到收敛的移相比" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-5cZ2hvv2o5u94oEUxhw-76" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="665" y="1000" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
