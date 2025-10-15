@@ -280,12 +280,6 @@
         <mxCell id="-5cZ2hvv2o5u94oEUxhw-100" value="是否已遍历搜索空间S？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1190" y="970" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-5cZ2hvv2o5u94oEUxhw-101" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="-5cZ2hvv2o5u94oEUxhw-100" target="-5cZ2hvv2o5u94oEUxhw-87">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1390" y="1010" as="sourcePoint" />
-            <mxPoint x="1390" y="570" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-5cZ2hvv2o5u94oEUxhw-102" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1350" y="760" width="40" height="30" as="geometry" />
         </mxCell>
