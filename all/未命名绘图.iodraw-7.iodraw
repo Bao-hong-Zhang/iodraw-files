@@ -26,7 +26,7 @@
           <mxGeometry x="820" y="60" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n-fUmQHdyL_T4pWboBQr-116" value="PV4_Source (8)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="920" y="120" width="120" height="40" as="geometry" />
+          <mxGeometry x="980" y="50" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n-fUmQHdyL_T4pWboBQr-117" value="WT1_LV_Bus (9)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="110" y="220" width="120" height="40" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry x="661" y="320" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n-fUmQHdyL_T4pWboBQr-131" value="Collection_Bus_7 (23)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="761" y="320" width="140" height="40" as="geometry" />
+          <mxGeometry x="790" y="320" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n-fUmQHdyL_T4pWboBQr-132" value="Collection_Bus_8 (24)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="950" y="330" width="140" height="40" as="geometry" />
@@ -246,9 +246,6 @@
         </mxCell>
         <mxCell id="n-fUmQHdyL_T4pWboBQr-189" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="n-fUmQHdyL_T4pWboBQr-136" target="n-fUmQHdyL_T4pWboBQr-148">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="n-fUmQHdyL_T4pWboBQr-190" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;" vertex="1" parent="1">
-          <mxGeometry x="970" y="120" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
