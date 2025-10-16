@@ -389,7 +389,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n-fUmQHdyL_T4pWboBQr-238" value="r=0.01&lt;br&gt;ratio=3.5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;dashed=1;" edge="1" parent="1" source="n-fUmQHdyL_T4pWboBQr-202" target="n-fUmQHdyL_T4pWboBQr-210">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-0.2" y="20" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="n-fUmQHdyL_T4pWboBQr-239" value="r=0.01&lt;br&gt;ratio=3.5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;dashed=1;" edge="1" parent="1" source="n-fUmQHdyL_T4pWboBQr-204" target="n-fUmQHdyL_T4pWboBQr-210">
           <mxGeometry relative="1" as="geometry" />
