@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="24.7.17">
   <diagram name="Page-1" id="4fMvnPO1QwsU36n68--V">
-    <mxGraphModel dx="115904" dy="60048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="122956" dy="64920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -656,10 +656,10 @@
           <mxGeometry x="1500" y="1040" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PS-AOYiOV2NaC8zE7dlM-1321" value="Bus 20" style="shape=line;strokeWidth=4;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="1610" y="560" width="10" height="40" as="geometry" />
+          <mxGeometry x="1635" y="440" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PS-AOYiOV2NaC8zE7dlM-1322" value="Bus 17" style="shape=line;strokeWidth=4;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="1610" y="640" width="10" height="40" as="geometry" />
+          <mxGeometry x="1635" y="640" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PS-AOYiOV2NaC8zE7dlM-1323" value="Bus 18" style="shape=line;strokeWidth=4;direction=south;" vertex="1" parent="1">
           <mxGeometry x="1610" y="720" width="10" height="40" as="geometry" />
@@ -830,7 +830,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PS-AOYiOV2NaC8zE7dlM-1378" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PS-AOYiOV2NaC8zE7dlM-1320" target="PS-AOYiOV2NaC8zE7dlM-1321">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1590" y="1050" />
+              <mxPoint x="1590" y="420" />
+              <mxPoint x="1640" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="PS-AOYiOV2NaC8zE7dlM-1379" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="PS-AOYiOV2NaC8zE7dlM-1321" target="PS-AOYiOV2NaC8zE7dlM-1322">
           <mxGeometry relative="1" as="geometry" />
